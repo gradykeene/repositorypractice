@@ -1,0 +1,20 @@
+---
+title: "Untitled"
+author: "Grady Keene"
+date: "2/16/2022"
+output: html_document
+---
+
+
+```{r}
+library(tidyverse)
+library(dplyr)
+```
+
+
+
+```{r}
+diamonds %>%
+  select (price, color, x)
+```
+
